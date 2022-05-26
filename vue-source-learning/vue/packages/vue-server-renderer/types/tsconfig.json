@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "noEmit": true,
+    "paths": {
+      "vue": ["../../../types/index.d.ts"]
+    }
+  },
+  "compileOnSave": false,
+  "include": [
+    "**/*.ts",
+    "../../../types"
+  ]
+}
